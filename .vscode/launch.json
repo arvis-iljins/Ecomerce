@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to UsersService",
+            "type": "coreclr",
+            "request": "attach",
+            "processName": "UsersService.API"
+        },
+        {
+            "name": "Attach to OrdersService",
+            "type": "coreclr",
+            "request": "attach",
+            "processName": "OrdersMicroservice.API"
+        },
+        {
+            "name": "Attach to ProductsService",
+            "type": "coreclr",
+            "request": "attach",
+            "processName": "eCommerceProducts.Api"
+        }
+    ]
+}

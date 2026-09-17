@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "dgSpecHash": "3IwlEYpppug=",
+  "success": false,
+  "projectFilePath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/BusinessLogicLayer/BusinessLogicLayer.csproj",
+  "expectedPackageFiles": [
+    "/Users/arvisiljins/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.caching.abstractions/10.0.11/microsoft.extensions.caching.abstractions.10.0.11.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.caching.stackexchangeredis/10.0.11/microsoft.extensions.caching.stackexchangeredis.10.0.11.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.diagnostics/8.0.1/microsoft.extensions.diagnostics.8.0.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.1/microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.http/8.0.1/microsoft.extensions.http.8.0.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.http.polly/8.0.28/microsoft.extensions.http.polly.8.0.28.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.logging/8.0.1/microsoft.extensions.logging.8.0.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.11/microsoft.extensions.logging.abstractions.10.0.11.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.options/10.0.11/microsoft.extensions.options.10.0.11.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.primitives/10.0.11/microsoft.extensions.primitives.10.0.11.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/mongodb.bson/3.8.0/mongodb.bson.3.8.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/mongodb.driver/3.8.0/mongodb.driver.3.8.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/polly/7.2.4/polly.7.2.4.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/polly.extensions.http/3.0.0/polly.extensions.http.3.0.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/sharpcompress/0.38.0/sharpcompress.0.38.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/snappier/1.1.6/snappier.1.1.6.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/stackexchange.redis/2.7.27/stackexchange.redis.2.7.27.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/zstdsharp.port/0.8.1/zstdsharp.port.0.8.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'SharpCompress' 0.38.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338",
+      "projectPath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "libraryId": "SharpCompress",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Snappier' 1.1.6 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx",
+      "projectPath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "libraryId": "Snappier",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.DependencyInjection.Abstractions from 10.0.11 to 8.0.2. Reference the package directly from the project to select a different version. \n BusinessLogicLayer -> AutoMapper 13.0.1 -> Microsoft.Extensions.Options 10.0.11 -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 10.0.11) \n BusinessLogicLayer -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.2)",
+      "projectPath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "filePath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/BusinessLogicLayer/BusinessLogicLayer.csproj",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

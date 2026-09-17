@@ -1,0 +1,13 @@
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/bin/Debug~cd/net10.0/UsersService.Core.deps.json
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/bin/Debug~cd/net10.0/UsersService.Core.dll
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/bin/Debug~cd/net10.0/UsersService.Core.pdb
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/obj/Debug~cd/net10.0/UsersService.Core.csproj.AssemblyReference.cache
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/obj/Debug~cd/net10.0/UsersService.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/obj/Debug~cd/net10.0/UsersService.Core.AssemblyInfoInputs.cache
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/obj/Debug~cd/net10.0/UsersService.Core.AssemblyInfo.cs
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/obj/Debug~cd/net10.0/UsersService.Core.csproj.CoreCompileInputs.cache
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/obj/Debug~cd/net10.0/UsersService.Core.sourcelink.json
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/obj/Debug~cd/net10.0/UsersService.Core.dll
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/obj/Debug~cd/net10.0/refint/UsersService.Core.dll
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/obj/Debug~cd/net10.0/UsersService.Core.pdb
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Core/obj/Debug~cd/net10.0/ref/UsersService.Core.dll

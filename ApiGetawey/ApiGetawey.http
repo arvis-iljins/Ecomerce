@@ -1,0 +1,6 @@
+@apiGetawey_HostAddress = http://localhost:5037
+
+GET {{apiGetawey_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

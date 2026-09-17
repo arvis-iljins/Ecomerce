@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch ProductsService",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "/Users/arvisiljins/Desktop/Ecomerce/ProductsService/eCommerceProducts.Api/bin/Debug/net10.0/eCommerceProducts.Api.dll",
+      "args": [],
+      "cwd": "/Users/arvisiljins/Desktop/Ecomerce/ProductsService/eCommerceProducts.Api",
+      "stopAtEntry": false,
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5081"
+      }
+    },
+    {
+      "name": "Attach to ProductsService",
+      "type": "coreclr",
+      "request": "attach",
+      "processName": "eCommerceProducts.Api"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+services:
+  productsservice:
+    build:
+      context: ./ProductsService
+      dockerfile: Dockerfile
+    ports:
+      - "5081:8080"
+    environment:
+      - POSTGRES_HOST=products-postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=ProductSearch
+      - POSTGRES_USER=arvisiljins
+      - POSTGRES_PASSWORD=password
+    depends_on:
+      products-postgres:
+        condition: service_healthy
+    networks:
+      - ecommerce-network
+
+  usersservice:
+    build:
+      context: ./UsersService
+      dockerfile: Dockerfile
+    ports:
+      - "5025:8080"
+    environment:
+      - DATABASE_HOST=users-postgres
+      - DATABASE_PORT=5432
+      - DATABASE_NAME=eCommerceDb
+      - DATABASE_USER=arvisiljins
+      - DATABASE_PASSWORD=xxx111
+    depends_on:
+      users-postgres:
+        condition: service_healthy
+    networks:
+      - ecommerce-network
+
+  ordersservice:
+    build:
+      context: ./OrdersService
+      dockerfile: Dockerfile
+    ports:
+      - "5080:8080"
+    environment:
+      - MONGO_HOST=mongodb
+      - MONGO_PORT=27017
+      - MONGO_DB_NAME=OrdersDatabase
+      - UsersMicroservice__Host=usersservice
+      - UsersMicroservice__Port=8080
+      - ProductMicroservice__Host=productsservice
+      - ProductMicroservice__Port=8080
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      mongodb:
+        condition: service_healthy
+      usersservice:
+        condition: service_started
+    networks:
+      - ecommerce-network
+
+  apigateway:
+    build:
+      context: ./ApiGetawey
+      dockerfile: Dockerfile
+    ports:
+      - "5090:8080"
+    depends_on:
+      usersservice:
+        condition: service_started
+      ordersservice:
+        condition: service_started
+      productsservice:
+        condition: service_started
+    networks:
+      - ecommerce-network
+
+  products-postgres:
+    image: postgres:17
+    environment:
+      - POSTGRES_DB=ProductSearch
+      - POSTGRES_USER=arvisiljins
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5433:5432"
+    volumes:
+      - products-postgres-data:/var/lib/postgresql/data
+      - ./ProductsDb:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U arvisiljins -d ProductSearch"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ecommerce-network
+
+  users-postgres:
+    image: postgres:17
+    environment:
+      - POSTGRES_DB=eCommerceDb
+      - POSTGRES_USER=arvisiljins
+      - POSTGRES_PASSWORD=xxx111
+    ports:
+      - "5434:5432"
+    volumes:
+      - users-postgres-data:/var/lib/postgresql/data
+      - ./UsersDb:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U arvisiljins -d eCommerceDb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ecommerce-network
+
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - orders-mongo-data:/data/db
+      - ./OrdersDb:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - ecommerce-network
+
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - ecommerce-network
+
+volumes:
+  products-postgres-data:
+  users-postgres-data:
+  orders-mongo-data:
+  redis-data:
+networks:
+  ecommerce-network:
+    driver: bridge

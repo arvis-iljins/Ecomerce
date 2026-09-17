@@ -1,0 +1,16 @@
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/bin/Debug~cd/net10.0/UsersService.Infrastructure.deps.json
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/bin/Debug~cd/net10.0/UsersService.Infrastructure.dll
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/bin/Debug~cd/net10.0/UsersService.Infrastructure.pdb
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/bin/Debug~cd/net10.0/UsersService.Core.dll
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/bin/Debug~cd/net10.0/UsersService.Core.pdb
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/UsersService.Infrastructure.csproj.AssemblyReference.cache
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/UsersService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/UsersService.Infrastructure.AssemblyInfoInputs.cache
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/UsersService.Infrastructure.AssemblyInfo.cs
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/UsersService.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/UsersService.Infrastructure.sourcelink.json
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/UsersSer.84FD0A55.Up2Date
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/UsersService.Infrastructure.dll
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/refint/UsersService.Infrastructure.dll
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/UsersService.Infrastructure.pdb
+/Users/arvisiljins/Desktop/Ecomerce/UsersService/UsersService.Infrastructure/obj/Debug~cd/net10.0/ref/UsersService.Infrastructure.dll

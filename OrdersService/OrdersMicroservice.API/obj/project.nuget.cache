@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "dgSpecHash": "d575gSveGSA=",
+  "success": true,
+  "projectFilePath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/OrdersMicroservice.API/OrdersMicroservice.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/arvisiljins/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.caching.stackexchangeredis/10.0.11/microsoft.extensions.caching.stackexchangeredis.10.0.11.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.extensions.http.polly/8.0.28/microsoft.extensions.http.polly.8.0.28.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.21.0/microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/mongodb.bson/3.8.0/mongodb.bson.3.8.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/mongodb.driver/3.8.0/mongodb.driver.3.8.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/polly/8.7.0/polly.8.7.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/polly.core/8.7.0/polly.core.8.7.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/polly.extensions.http/3.0.0/polly.extensions.http.3.0.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/sharpcompress/0.38.0/sharpcompress.0.38.0.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/snappier/1.1.6/snappier.1.1.6.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/stackexchange.redis/2.7.27/stackexchange.redis.2.7.27.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/swashbuckle.aspnetcore/6.7.3/swashbuckle.aspnetcore.6.7.3.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/swashbuckle.aspnetcore.swagger/6.7.3/swashbuckle.aspnetcore.swagger.6.7.3.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.7.3/swashbuckle.aspnetcore.swaggergen.6.7.3.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.7.3/swashbuckle.aspnetcore.swaggerui.6.7.3.nupkg.sha512",
+    "/Users/arvisiljins/.nuget/packages/zstdsharp.port/0.8.1/zstdsharp.port.0.8.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'AutoMapper' 13.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/OrdersMicroservice.API/OrdersMicroservice.API.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/OrdersMicroservice.API/OrdersMicroservice.API.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'SharpCompress' 0.38.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338",
+      "projectPath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/OrdersMicroservice.API/OrdersMicroservice.API.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/OrdersMicroservice.API/OrdersMicroservice.API.csproj",
+      "libraryId": "SharpCompress",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Snappier' 1.1.6 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx",
+      "projectPath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/OrdersMicroservice.API/OrdersMicroservice.API.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/arvisiljins/Desktop/Ecomerce/OrdersService/OrdersMicroservice.API/OrdersMicroservice.API.csproj",
+      "libraryId": "Snappier",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
