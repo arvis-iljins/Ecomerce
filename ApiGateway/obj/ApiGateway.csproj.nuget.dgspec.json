@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arvisiljins/Desktop/Ecomerce/ApiGetawey/ApiGetawey.csproj": {}
+    "/Users/arvisiljins/Desktop/Ecomerce/ApiGateway/ApiGateway.csproj": {}
   },
   "projects": {
-    "/Users/arvisiljins/Desktop/Ecomerce/ApiGetawey/ApiGetawey.csproj": {
+    "/Users/arvisiljins/Desktop/Ecomerce/ApiGateway/ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arvisiljins/Desktop/Ecomerce/ApiGetawey/ApiGetawey.csproj",
-        "projectName": "ApiGetawey",
-        "projectPath": "/Users/arvisiljins/Desktop/Ecomerce/ApiGetawey/ApiGetawey.csproj",
+        "projectUniqueName": "/Users/arvisiljins/Desktop/Ecomerce/ApiGateway/ApiGateway.csproj",
+        "projectName": "ApiGateway",
+        "projectPath": "/Users/arvisiljins/Desktop/Ecomerce/ApiGateway/ApiGateway.csproj",
         "packagesPath": "/Users/arvisiljins/.nuget/packages",
-        "outputPath": "/Users/arvisiljins/Desktop/Ecomerce/ApiGetawey/obj/",
+        "outputPath": "/Users/arvisiljins/Desktop/Ecomerce/ApiGateway/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arvisiljins/.nuget/NuGet/NuGet.Config"
@@ -53,6 +53,10 @@
             "Ocelot": {
               "target": "Package",
               "version": "[25.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.2.3, )"
             }
           },
           "imports": [

@@ -61,7 +61,7 @@ services:
 
   apigateway:
     build:
-      context: ./ApiGetawey
+      context: ./ApiGateway
       dockerfile: Dockerfile
     ports:
       - "5090:8080"

@@ -6,7 +6,7 @@ A microservices-based e-commerce system: independent Users, Orders and Products 
 
 | Service         | Tech                          | Port (host) | Storage                     |
 |------------------|-------------------------------|--------------|------------------------------|
-| ApiGetawey       | ASP.NET Core + Ocelot         | 5090         | -                            |
+| ApiGateway       | ASP.NET Core + Ocelot         | 5090         | -                            |
 | UsersService     | ASP.NET Core                  | 5025         | PostgreSQL (`users-postgres`)   |
 | OrdersService    | ASP.NET Core                  | 5080         | MongoDB (`mongodb`) + Redis cache |
 | ProductsService  | ASP.NET Core                  | 5081         | PostgreSQL (`products-postgres`) |
@@ -76,7 +76,7 @@ Initial schema/seed scripts are mounted from `./ProductsDb`, `./UsersDb`, and `.
 
 ```
 Ecomerce/
-├── ApiGetawey/        # API Gateway (Ocelot)
+├── ApiGateway/        # API Gateway (Ocelot)
 ├── UsersService/      # Users microservice (+ Postgres)
 ├── OrdersService/     # Orders microservice (+ MongoDB, Redis cache)
 ├── ProductsService/    # Products microservice (+ Postgres)
