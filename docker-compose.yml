@@ -45,16 +45,14 @@ services:
       - MONGO_HOST=mongodb
       - MONGO_PORT=27017
       - MONGO_DB_NAME=OrdersDatabase
-      - UsersMicroservice__Host=usersservice
-      - UsersMicroservice__Port=8080
-      - ProductMicroservice__Host=productsservice
-      - ProductMicroservice__Port=8080
+      - ApiGateway__Host=apigateway
+      - ApiGateway__Port=8080
       - REDIS_HOST=redis
       - REDIS_PORT=6379
     depends_on:
       mongodb:
         condition: service_healthy
-      usersservice:
+      apigateway:
         condition: service_started
     networks:
       - ecommerce-network
@@ -67,8 +65,6 @@ services:
       - "5090:8080"
     depends_on:
       usersservice:
-        condition: service_started
-      ordersservice:
         condition: service_started
       productsservice:
         condition: service_started

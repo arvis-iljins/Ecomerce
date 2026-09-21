@@ -32,16 +32,14 @@ builder.Services.AddCors(options =>
     });
 });
 
-var usersHost = builder.Configuration["UsersMicroservice:Host"];
-var usersPort = builder.Configuration["UsersMicroservice:Port"];
-var productHost = builder.Configuration["ProductMicroservice:Host"];
-var productPort = builder.Configuration["ProductMicroservice:Port"];
+var apiGatewayHost = builder.Configuration["ApiGateway:Host"];
+var apiGatewayPort = builder.Configuration["ApiGateway:Port"];
 
 builder.Services.AddTransient<IUserMicroservicePolicies, UserMicroservicePolicies>();
 builder
     .Services.AddHttpClient<UsersMicroserviceClient>(client =>
     {
-        client.BaseAddress = new Uri($"http://{usersHost}:{usersPort}");
+        client.BaseAddress = new Uri($"http://{apiGatewayHost}:{apiGatewayPort}");
     })
     .AddPolicyHandler(
         builder
@@ -58,7 +56,7 @@ builder
 
 builder.Services.AddHttpClient<ProductMicroserviceClient>(client =>
 {
-    client.BaseAddress = new Uri($"http://{productHost}:{productPort}");
+    client.BaseAddress = new Uri($"http://{apiGatewayHost}:{apiGatewayPort}");
 });
 var app = builder.Build();
 

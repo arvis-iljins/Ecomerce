@@ -24,10 +24,8 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 ENV MONGO_HOST=localhost
 ENV MONGO_PORT=27017
-ENV MONGO_DB_NAME=OrdersDatabase  
-ENV UsersMicroservice__Host=localhost
-ENV UsersMicroservice__Port=5025  
-ENV ProductMicroservice__Host=localhost
-ENV ProductMicroservice__Port=5081 
+ENV MONGO_DB_NAME=OrdersDatabase
+ENV ApiGateway__Host=localhost
+ENV ApiGateway__Port=5037
 
 ENTRYPOINT ["dotnet", "OrdersMicroservice.API.dll"]
