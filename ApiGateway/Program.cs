@@ -35,6 +35,19 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = string.Empty;
 });
 
+app.Use(
+    async (context, next) =>
+    {
+        if (!context.Request.Headers.ContainsKey("ClientId"))
+        {
+            context.Request.Headers["ClientId"] =
+                context.Connection.RemoteIpAddress?.ToString() ?? "anonymous";
+        }
+
+        await next();
+    }
+);
+
 await app.UseOcelot();
 
 app.Run();

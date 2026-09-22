@@ -46,7 +46,14 @@
       "DownstreamHostAndPorts": [{ "Host": "productsservice", "Port": 8080 }],
       "UpstreamPathTemplate": "/api/Products",
       "UpstreamHttpMethod": ["Get", "Post", "Put", "Delete", "Patch"],
-      "SwaggerKey": "products"
+      "SwaggerKey": "products",
+      "RateLimitOptions": {
+        "EnableRateLimiting": true,
+        "Period": "1m",
+        "Limit": 5,
+        "HttpStatusCode": 429,
+        "PeriodTimespan": 60
+      }
     },
     {
       "DownstreamPathTemplate": "/api/Products/{everything}",
@@ -58,7 +65,13 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://localhost:5090"
+    "BaseUrl": "http://localhost:5090",
+    "RateLimitOptions": {
+      "ClientIdHeader": "ClientId",
+      "QuotaExceededMessage": "API calls quota exceeded! Please try again later.",
+      "HttpStatusCode": 429,
+      "DisableRateLimitHeaders": false
+    }
   },
   "SwaggerEndPoints": [
     {
